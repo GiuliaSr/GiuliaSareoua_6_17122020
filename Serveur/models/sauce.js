@@ -30,10 +30,10 @@ const sauceSchema = new Schema({
         type: Number,
     },
     usersLiked: {
-        type: [],
+        type: Array,
     },
     usersDisliked: {
-        type: [],
+        type: Array,
     },
 });
 
